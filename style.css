@@ -1,10 +1,10 @@
 /* Add your styles here */
-
 body {
     font-family: Arial, sans-serif;
 }
 
 header {
+    text-align: center;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
@@ -20,12 +20,32 @@ nav {
 }
 
 nav ul {
-    list-style: none;
+      justify-content: center;
     display: flex;
 }
 
-nav ul li {
-    margin-right: 20px;
+nav ul li  a{ 
+        margin:auto;
+        padding: 10px;
+		color: rgb(33, 165, 189);
+		font-size: 1.2rem;
+		text-decoration: none;
+		list-style-type:none ;
+		
+}
+.menu li{
+ 
+    list-style: none; 
+    
+}
+.para{
+    padding: 15px;
+	margin: 10px;
+	background-color: ghostwhite;
+	border-radius: 5px;
 }
 
-/* Define styles for other sections, portfolio items, and footer */
+.container-fluid{
+    padding: 20px;
+    padding-left: 300px;
+}
